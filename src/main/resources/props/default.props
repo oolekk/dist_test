@@ -1,0 +1,11 @@
+# Properties in this file will be read when running in dev mode
+db.schemify=true
+db.type=h2
+db.driver=org.h2.Driver
+
+#vvv in-memory h2 database vvv#
+db.url=jdbc:h2:mem:h2diste
+
+#db credentials
+db.user=sa
+
